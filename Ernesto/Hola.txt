@@ -1,0 +1,69 @@
+<style>   
+        .contenedor1{
+            display: flex;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .imagen1{
+            max-width: 30%;
+            margin-right: 5px;
+        }
+
+        .texto1{
+            max-width: 50%;
+        }
+
+        .contenedor2
+        {
+            display: flex;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .imagen2
+        {
+            max-width: 30%;
+            margin-right: 5px;
+        }
+
+        .texto2
+        {
+            max-width: 50%;
+        }
+
+        label,
+        input,
+        select 
+        {
+            display: flex;
+            margin-bottom: 15px;
+            width: 20%;
+            box-sizing: border-box;
+        }
+
+    </style>
+
+    ///////////////////////////////////////////////////////////////////////////
+
+
+    <div class="contenedor1">
+            <img src="chem_1.png" width="20%" alt="Chem 1">
+            <div class="texto1">
+                <p>El perro, ​​​ llamado perro doméstico o can, ​ y en algunos lugares coloquialmente llamado chucho, ​ tuso, ​ choco, ​ entre otros; es un mamífero carnívoro de la familia de los cánidos, que constituye una especie del género Canis.​​</p>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="contenedor2">
+            <div class="texto2">
+                <p>El perro, ​​​ llamado perro doméstico o can, ​ y en algunos lugares coloquialmente llamado chucho, ​ tuso, ​ choco, ​ entre otros; es un mamífero carnívoro de la familia de los cánidos, que constituye una especie del género Canis.​​</p>
+            </div>
+            <img class="imagen2" src="chem_2.png" width="20%" alt="Chem 2">
+        </div>
+
+        <br>
+        <br>
